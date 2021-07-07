@@ -33,6 +33,8 @@ class _RatingBoxState extends State<RatingBox> {
     double _size = 20;
     print('rating = ' + _rating.toString());
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Container(
           padding: EdgeInsets.all(0),
